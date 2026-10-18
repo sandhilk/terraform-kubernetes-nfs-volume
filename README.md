@@ -12,7 +12,7 @@ reviewed block of code with the mistakes caught at plan time.
 
 ```hcl
 module "app_data" {
-  source = "github.com/<your-username>/terraform-kubernetes-nfs-volume"
+  source = "github.com/<sandhilk>/terraform-kubernetes-nfs-volume"
 
   name       = "app-data"
   namespace  = "team-a"
