@@ -1,5 +1,7 @@
 # terraform-kubernetes-nfs-volume
 
+[![ci](https://github.com/sandhilk/terraform-kubernetes-nfs-volume/actions/workflows/ci.yml/badge.svg)](https://github.com/sandhilk/terraform-kubernetes-nfs-volume/actions/workflows/ci.yml)
+
 A small Terraform module that creates an NFS-backed PersistentVolume and a
 matching PersistentVolumeClaim in Kubernetes, bound to each other.
 
